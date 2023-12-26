@@ -1,0 +1,41 @@
+.products {
+  background-color: #f1f1f1;
+}
+
+.container {
+  height: 350px;
+  width: 80vw;
+  margin-bottom: 100px;
+}
+
+.category-banner {
+  padding: 0;
+}
+
+.category-banner img {
+  width: 100%;
+}
+
+.subcategory {
+  margin-top: 30px;
+}
+
+.subcategory img {
+  width: 100%;
+  height: 120px;
+}
+
+.subcategory-txt {
+  padding-left: 0;
+}
+
+.subcategory-txt p {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.subcategory-txt ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 15px;
+}

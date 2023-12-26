@@ -1,0 +1,264 @@
+/* footer section start 
+
+.footer_section {
+  width: 100%;
+  float: left;
+  background-color: #770000;
+  height: auto;
+}
+
+.footer_logo {
+  width: 100%;
+  text-align: center;
+}
+
+.input_bt {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  border-bottom: 1px solid #ffffff !important;
+}
+
+.mail_bt {
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  color: #fff;
+  background-color: transparent;
+  padding: 5px 0px 5px 0px;
+  height: 60px;
+  border: 0px;
+}
+
+input.mail_bt::placeholder {
+  color: #fff;
+}
+
+.subscribe_bt {
+  width: 30%;
+  float: right;
+  font-size: 16px;
+  color: #f26522;
+  background-color: transparent;
+  padding: 20px 0px 5px 0px;
+  border-radius: 30px;
+  border: 0px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.subscribe_bt a {
+  color: #f26522;
+}
+
+.subscribe_bt a:hover {
+  color: #ffffff;
+}
+
+.footer_menu {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer_menu ul {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.footer_menu li {
+  float: left;
+  font-size: 16px;
+  color: #f1f1f1;
+  padding: 20px 10px 0px 10px;
+}
+
+.footer_menu li a {
+  color: #f1f1f1;
+}
+
+.footer_menu li a:hover {
+  color: #f26522;
+}
+
+.location_main {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.location_main {
+  float: left;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 30px 30px 30px 30px;
+}
+
+.location_main a {
+  color: #ffffff;
+}
+
+.location_main a:hover {
+  color: #f26522;
+}
+
+/* footer section end */
+
+/* copyright section start 
+
+.copyright_section {
+  width: 100%;
+  float: left;
+  background-color: #252525;
+  height: auto;
+}
+
+.copyright_text {
+  width: 100%;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 0px;
+}
+
+.copyright_text a {
+  color: #ffffff;
+}
+
+.copyright_text a:hover {
+  color: #f26522;
+}
+
+.margin_top90 {
+  margin-top: 90px;
+}
+
+.layout_padding {
+  padding-top: 90px;
+  padding-bottom: 0px;
+}
+
+/* copyright section end */
+
+.footer {
+  background-image: linear-gradient(
+    30deg,
+    rgb(219 76 85) 33.33%,
+    rgb(219, 58, 68),
+    33.33%,
+    rgb(215 64 74),
+    66.66%,
+    rgb(191 60 68) 66.66%
+  );
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  box-sizing: content-box;
+  padding: 34px 68px;
+  max-height: 40vh;
+  min-height: 380px;
+}
+
+.footer-content {
+  max-width: 1920px;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.footer-heading {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  text-align: center;
+}
+
+h3 {
+  margin: 0px;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  text-align: center;
+}
+
+.register-btn {
+  font-size: 30px;
+  padding: 10px;
+  align-self: center;
+  height: 90px;
+  width: 350px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  display: inline-block;
+  background: #f3f3f3;
+  color: #c00606f1;
+  text-transform: uppercase;
+  /* padding: 20px 30px; */
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+.register-btn:hover {
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0px, -10px) scale(1.2);
+  transform: translate(0px, -10px) scale(1.2);
+  color: #000000;
+}
+
+.footer-section {
+  background-color: #27272f;
+  min-height: 400px;
+  padding-top: 50px;
+}
+
+.app-promo img {
+  height: 30px;
+  color: white;
+}
+
+.app-promo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-section-div {
+  padding-left: 50px;
+}
+
+.footer-section-div h4 {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.footer-section-div ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section-div ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section-div ul li {
+  padding-bottom: 3px;
+  line-height: 30px;
+}
+
+.footer-sec-col {
+  align-items: center;
+}

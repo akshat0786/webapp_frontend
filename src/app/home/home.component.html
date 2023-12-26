@@ -1,0 +1,322 @@
+<div style="margin-top: 80px">
+  <app-home-banner></app-home-banner>
+  <!-- CATEGORY LIST -->
+  <div class="category-list">
+    <!-- <div class="d-flex align-items-center"> -->
+    <div class="category-container">
+      <div class="row">
+        <div
+          class="col-6 col-xl-2 col-lg-3 col-md-4"
+          *ngFor="let category of headerCategories"
+        >
+          <div class="d-flex align-items-center">
+            <img src="{{ category.imgPath }}" class="img-fluid" />
+            <span class="cat-name">
+              {{ category.name }}
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="view-all"> -->
+      <div>
+        <span
+          >View all <br />
+          categories</span
+        >
+      </div>
+    </div>
+
+    <!-- </div> -->
+
+    <!-- LOGIN/SIGNUP MODAL -->
+    <!-- <div
+    id="basicModal"
+    class="modal bd-example-modal-lg"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="myLargeModalLabel"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="card login-card" style="width: 400px">
+            <h1>Enter mobile number</h1>
+            <h3>
+              Enter your 10 digit mobile number to receive verification code
+            </h3>
+            <input type="number" maxlength="10" class="form-control" />
+            <button class="btn btn-default btn-th-default btn-rounded">
+              Get Verification Code
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+    <!-- Requirement Section -->
+
+    <div class="require-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 req-sec-left">
+          <div class="row req-sec-heading">
+            <h1>India's largest B2B Platform For Businesses & Shop Owners</h1>
+          </div>
+          <div>
+            <button class="register-btn">Register</button>
+            <img src="" alt="" />
+          </div>
+          <div>
+            <p class="req-sec-p">We connect Buyers & Sellers</p>
+          </div>
+          <div class="req-sec-img">
+            <img src="../../assets/imgs/requirement.png" alt="" />
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12">
+          <div class="req-container">
+            <div class="row req-heading">
+              <h2>Post Your Requirement</h2>
+              <p>Get the best Deals and Exclusive Offers with TradeHind</p>
+            </div>
+            <div>
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <label for="inputName">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputText"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label for="inputMobile">Mobile Number</label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="inputMobile"
+                      placeholder="Mobile Number"
+                    />
+                  </div>
+                </div>
+                <div class="form-group col-md-12">
+                  <label for="inputRequirement"
+                    >Tell us about your requirement</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputRequirement"
+                    placeholder="Enter the product/service you're looking for... "
+                  />
+                </div>
+                <div class="form-group col-md-12">
+                  <button type="submit" class="btn btn-danger btn-lg">
+                    Submit Requirement
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-section">
+    <h1>Product You May Like</h1>
+    <div class="row">
+      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 product-card">
+        <div class="card text-center">
+          <img
+            src="../../assets/imgs/product-imgs/1 (1).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Roofing Sheet</h2>
+            <a href="#" class="btn btn-danger">Get Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 product-card">
+        <div class="card text-center">
+          <img
+            src="../../assets/imgs/product-imgs/2 (1).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Plywood</h2>
+            <a href="#" class="btn btn-danger">Get Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 product-card">
+        <div class="card text-center">
+          <img
+            src="../../assets/imgs/product-imgs/3 (1).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Industrial Rack</h2>
+            <a href="#" class="btn btn-danger">Get Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 product-card">
+        <div class="card text-center">
+          <img
+            src="../../assets/imgs/product-imgs/4 (1).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Motor</h2>
+            <a href="#" class="btn btn-danger">Get Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 product-card">
+        <div class="card text-center">
+          <img
+            src="../../assets/imgs/product-imgs/5 (1).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Tyre</h2>
+            <a href="#" class="btn btn-danger">Get Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 product-card">
+        <div class="card text-center">
+          <img
+            src="../../assets/imgs/product-imgs/6 (1).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Hydroclone</h2>
+            <a href="#" class="btn btn-danger">Get Enquiry</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 product-card">
+        <div class="card text-center">
+          <img
+            src="../../assets/imgs/product-imgs/7 (1).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Conveyor Chain</h2>
+            <a href="#" class="btn btn-danger">Get Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 product-card">
+        <div class="card text-center">
+          <img
+            src="../../assets/imgs/product-imgs/8 (1).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">HSI Crusher</h2>
+            <a href="#" class="btn btn-danger">Get Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 product-card">
+        <div class="card text-center">
+          <img
+            src="../../assets/imgs/product-imgs/9 (1).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Bearing</h2>
+            <a href="#" class="btn btn-danger">Get Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 product-card">
+        <div class="card text-center">
+          <img
+            src="../../assets/imgs/product-imgs/10 (1).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Solar Panel</h2>
+            <a href="#" class="btn btn-danger">Get Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 product-card">
+        <div class="card text-center">
+          <img
+            src="../../assets/imgs/product-imgs/5 (1).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Tyre</h2>
+            <a href="#" class="btn btn-danger">Get Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 product-card">
+        <div class="card text-center">
+          <img
+            src="../../assets/imgs/product-imgs/6 (1).png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h2 class="card-title">Hydroclone</h2>
+            <a href="#" class="btn btn-danger">Get Enquiry</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-section">
+    <h1>Our Blogs</h1>
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 blogs">
+        <div class="blog-img">
+          <img src="assets/imgs/Blog-imgs/Blog Image1.png" alt="" />
+        </div>
+        <div class="blog-heading">
+          <h2>Lorem ipsum dolor sit</h2>
+        </div>
+        <div class="blog-para">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, dicta?
+          </p>
+        </div>
+        <div class="blog-btn">
+          <button type="button" class="btn btn-danger">Read More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
