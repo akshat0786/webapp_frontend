@@ -23,6 +23,10 @@
   --main-font-color: rgb(126, 27, 27);
 }
 
-body {
-  /* overflow-x: hidden; */
+.row {
+  margin: 0;
 }
+
+/* body {
+  overflow-x: hidden;
+} */

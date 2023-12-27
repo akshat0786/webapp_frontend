@@ -262,3 +262,13 @@ h3 {
 .footer-sec-col {
   align-items: center;
 }
+
+@media screen and (max-width: 480px) {
+  .footer-content {
+    flex: auto;
+  }
+
+  .footer-section .row {
+    margin-right: 0;
+  }
+}
