@@ -1,0 +1,30 @@
+/* .modal {
+  display: flex;
+  height: 100%;
+  display: none;
+}
+
+.modal .modal-dialog {
+  margin: auto;
+  width: 80%;
+}
+
+.login-card {
+  width: 400px;
+  height: auto;
+  padding: 40px 25px;
+  margin: 0 auto;
+  text-align: center;
+  background: #f1f1f1;
+
+  input {
+    margin: 20px 0px;
+    height: 50px;
+    font-size: 28px;
+  }
+
+  h1 {
+    color: #000;
+    font-weight: bold;
+  }
+} */

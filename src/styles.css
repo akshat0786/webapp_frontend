@@ -27,6 +27,6 @@
   margin: 0;
 }
 
-/* body {
-  overflow-x: hidden;
-} */
+.modal-backdrop.show {
+  z-index: 0;
+}

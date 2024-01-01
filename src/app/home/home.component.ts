@@ -25,6 +25,46 @@ export class HomeComponent {
 
   products = [
     {
+      imgPath: 'assets/imgs/product-imgs/8 (1).png',
+      title: 'HSI Crusher',
+    },
+    {
+      imgPath: 'assets/imgs/product-imgs/2 (1).png',
+      title: 'Plywood',
+    },
+    {
+      imgPath: 'assets/imgs/product-imgs/3 (1).png',
+      title: 'Industrial Rack',
+    },
+    {
+      imgPath: 'assets/imgs/product-imgs/4 (1).png',
+      title: 'Motor',
+    },
+    {
+      imgPath: 'assets/imgs/product-imgs/5 (1).png',
+      title: 'Tyre',
+    },
+    {
+      imgPath: 'assets/imgs/product-imgs/6 (1).png',
+      title: 'Hydroclone',
+    },
+    {
+      imgPath: 'assets/imgs/product-imgs/7 (1).png',
+      title: 'Conveyor Chain',
+    },
+    {
+      imgPath: 'assets/imgs/product-imgs/8 (1).png',
+      title: 'HSI Crusher',
+    },
+    {
+      imgPath: 'assets/imgs/product-imgs/9 (1).png',
+      title: 'Bearing',
+    },
+    {
+      imgPath: 'assets/imgs/product-imgs/10 (1).png',
+      title: 'Solar Panel',
+    },
+    {
       imgPath: 'assets/imgs/product-imgs/1 (1).png',
       title: 'Roofing Sheet',
     },
@@ -65,12 +105,24 @@ export class HomeComponent {
       title: 'Solar Panel',
     },
     {
-      imgPath: 'assets/imgs/product-imgs/5 (1).png',
-      title: 'Tyre',
-    },
-    {
       imgPath: 'assets/imgs/product-imgs/6 (1).png',
       title: 'Hydroclone',
+    },
+    {
+      imgPath: 'assets/imgs/product-imgs/7 (1).png',
+      title: 'Conveyor Chain',
+    },
+    {
+      imgPath: 'assets/imgs/product-imgs/8 (1).png',
+      title: 'HSI Crusher',
+    },
+    {
+      imgPath: 'assets/imgs/product-imgs/9 (1).png',
+      title: 'Bearing',
+    },
+    {
+      imgPath: 'assets/imgs/product-imgs/10 (1).png',
+      title: 'Solar Panel',
     },
   ];
 
@@ -134,11 +186,6 @@ export class HomeComponent {
     this.changeGreeting();
   }
 
-  openLogin() {
-    console.log('in fun');
-    $('#basicModal').modal('show');
-    console.log($('#basicModal'), 'modal');
-  }
   // openProductDesc() {
   //   $('#openProductDesc').modal('show');
   // }

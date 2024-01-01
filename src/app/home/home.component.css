@@ -1239,6 +1239,11 @@ a:hover {
   border-radius: 10px;
 }
 
+.blog-section h1 {
+  font-size: 50px;
+  color: #212121;
+}
+
 .blog-section {
   .card:hover {
     background-color: rgb(255, 107, 107);
@@ -1283,6 +1288,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     padding: 10px 10px 10px 10px;
+    margin-top: 0;
+    margin-bottom: 25px;
   }
 
   .cat-name {
@@ -1326,5 +1333,56 @@ a:hover {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 0;
+  }
+
+  .req-heading {
+    h2 {
+      font-size: 19px;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 11px;
+      line-height: 15px;
+      margin: 0;
+    }
+  }
+
+  .blog-section {
+    margin: 40px;
+    background-color: #fff;
+    box-shadow: none;
+
+    h1 {
+      /* background-color: #fdf9f8; */
+      text-align: center;
+      /* border-radius: 5px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); */
+      font-size: 50px;
+    }
+  }
+
+  .product-section {
+    h1 {
+      text-align: center;
+    }
+  }
+
+  .form-row {
+    margin-top: 15px;
+    font-size: 12px;
+
+    input {
+      font-size: 10px;
+    }
+
+    textarea {
+      font-size: 10px;
+    }
+
+    button {
+      font-size: 14px;
+      padding: 5px 40px;
+    }
   }
 }

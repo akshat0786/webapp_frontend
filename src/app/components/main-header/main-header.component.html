@@ -1,4 +1,7 @@
-<div class="row" style="background-color: black; align-items: center">
+<div
+  class="row"
+  style="background-color: black; align-items: center; min-height: 80px"
+>
   <div class="col-6">
     <a href="index.html">
       <img
@@ -9,7 +12,11 @@
     </a>
   </div>
   <div class="col-6" style="text-align: end">
-    <a style="color: #ffffff; align-items: end">
+    <a
+      style="color: #ffffff; align-items: end; cursor: pointer"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
       <span>Login | Signup</span>
       <i
         class="fa fa-user"
@@ -17,5 +24,35 @@
         style="margin-left: 10px; font-size: 20px"
       ></i>
     </a>
+  </div>
+</div>
+<!-- LOGIN/SIGNUP MODAL  -->
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">...</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
   </div>
 </div>
