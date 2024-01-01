@@ -27,13 +27,13 @@
     <div class="row">
       <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 req-sec-left">
         <div class="row req-sec-heading">
-          <h1>India's largest B2B Platform For Businesses & Shop Owners</h1>
+          <h1>Trade Smarter, Your Gateway to Business Success</h1>
         </div>
         <div>
-          <button class="register-btn">Register</button>
+          <button class="register-btn">Join Free</button>
           <img src="" alt="" />
         </div>
-        <div>
+        <div class="">
           <p class="req-sec-p">We connect Buyers & Sellers</p>
         </div>
         <div class="req-sec-img">
@@ -75,9 +75,7 @@
               ></textarea>
             </div>
             <div class="form-group text-center col-md-12">
-              <button type="submit" class="btn btn-danger btn-lg">
-                Submit Requirement
-              </button>
+              <button class="register-btn">Submit Requirement</button>
             </div>
           </form>
         </div>
@@ -87,14 +85,19 @@
 
   <!--*****************PRODUCT SECTION********** -->
   <div class="product-section">
-    <h1>Product You May Like</h1>
     <div class="row d-flex justify-content-center">
+      <h1>Product You May Like</h1>
       <div
         class="card text-center col-sm-4 col-xs-12"
         *ngFor="let product of products"
         style="width: 18rem"
       >
-        <img src="{{ product.imgPath }}" class="card-img-top" alt="..." />
+        <img
+          src="{{ product.imgPath }}"
+          class="card-img-top"
+          style="padding: 0px"
+          alt="..."
+        />
         <div class="card-body">
           <h2 class="card-title">{{ product.title }}</h2>
           <a href="#" class="btn btn-danger">Get Enquiry</a>
@@ -112,7 +115,8 @@
         *ngFor="let blog of blogs"
         style="width: 18rem"
       >
-        <img src="{{ blog.imgPath }}" class="card-img-top" alt="..." />
+        <img src="{{ blog.imgPath }}" class="card-img-top p-0" alt="..." />
+
         <div class="card-body">
           <h5 class="card-title fs-3 2">{{ blog.title }}</h5>
           <p class="card-text">

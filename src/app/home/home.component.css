@@ -1074,25 +1074,25 @@ a:hover {
 }
 
 .req-sec-heading h1 {
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 50px;
   color: #ca2c2c;
   font-weight: 600;
   text-align: center;
+  line-height: 1.2;
   /* line-height: 90px; */
   /* max-width: 900px; */
 }
 
 .register-btn {
   cursor: pointer;
-  padding: 10px;
+  padding: 10px 25px;
   background-color: #ca2c2c;
   color: #fff;
   border: none;
   outline: none;
-  font-size: 30px;
-  width: 250px;
-  /* margin-top: 50px; */
+  font-size: 17px;
+  /* width: 250px; */
   border-radius: 10px;
 }
 
@@ -1101,9 +1101,8 @@ a:hover {
 }
 
 .req-sec-p {
-  font-size: 30px;
-  margin: 0;
-  margin-bottom: 20px;
+  font-size: var(--heading-font);
+  margin: 20px 0px;
 }
 
 .modal-dialog {
@@ -1144,9 +1143,9 @@ a:hover {
   color: var(--main-font-color);
 }
 
-.req-container button {
+/* .req-container button {
   padding: 20px;
-}
+} */
 
 .inpt-div {
   padding-bottom: 0px;
@@ -1159,6 +1158,7 @@ a:hover {
 .product-section h1 {
   font-size: 41px;
   color: #212121;
+  margin-left: 12vw;
 }
 
 /* .product-container {
@@ -1242,20 +1242,11 @@ a:hover {
 .blog-section h1 {
   font-size: 50px;
   color: #212121;
+  margin-left: 3vw;
 }
 
 .blog-section {
   .card:hover {
-    background-color: rgb(255, 107, 107);
-
-    .card-title {
-      color: #fff;
-    }
-
-    .card-body {
-      color: #fff;
-    }
-
     button {
       background-color: #fff;
       color: #880000;
@@ -1320,13 +1311,8 @@ a:hover {
 
   .req-sec-left {
     padding: 0;
-    gap: 15px;
-  }
 
-  .register-btn {
-    width: auto;
-    font-size: 18px;
-    padding: 10px 30px;
+    gap: 15px;
   }
 
   .req-sec-p {

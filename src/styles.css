@@ -21,6 +21,9 @@
 
 :root {
   --main-font-color: rgb(126, 27, 27);
+  --heading-font: 18px;
+  --product-title: 14px;
+  --paragraph-font: 12px;
 }
 
 .row {
