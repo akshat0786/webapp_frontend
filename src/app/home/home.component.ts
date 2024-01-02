@@ -120,10 +120,6 @@ export class HomeComponent {
       imgPath: 'assets/imgs/product-imgs/9 (1).png',
       title: 'Bearing',
     },
-    {
-      imgPath: 'assets/imgs/product-imgs/10 (1).png',
-      title: 'Solar Panel',
-    },
   ];
 
   headerCategories = [

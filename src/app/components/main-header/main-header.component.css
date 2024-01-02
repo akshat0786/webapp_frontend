@@ -38,13 +38,26 @@
 }
 
 /* White background */
-.modal-content {
+/* .modal-content {
   background-color: white;
   padding: 20px;
-  border: 1px solid #ccc; /* Add border for visual separation */
+  border: 1px solid #ccc; /* Add border for visual separation 
 }
 
-/* Optional: Increase modal header font size */
+/* Optional: Increase modal header font size
 .modal-title {
   font-size: 1.5rem;
+}
+
+.form-group {
+  padding: 6px;
+}
+.login-bg {
+  background-image: url("../../../assets/imgs/loginbg.jpg") !important;
+  background-size: cover;
+} */
+
+.modal-content {
+  background-image: url("../../../assets/imgs/loginbg.jpg");
+  background-size: cover;
 }

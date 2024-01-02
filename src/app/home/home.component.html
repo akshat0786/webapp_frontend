@@ -88,9 +88,9 @@
     <div class="row d-flex justify-content-center">
       <h1>Product You May Like</h1>
       <div
-        class="card text-center col-sm-4 col-xs-12"
+        class="card text-center col-lg-2 col-sm-4 col-xs-6"
         *ngFor="let product of products"
-        style="width: 18rem"
+        style="width: auto; height: auto"
       >
         <img
           src="{{ product.imgPath }}"
@@ -100,7 +100,7 @@
         />
         <div class="card-body">
           <h2 class="card-title">{{ product.title }}</h2>
-          <a href="#" class="btn btn-danger">Get Enquiry</a>
+          <a href="#" class="btn btn-danger enquiry-btn">Get Enquiry</a>
         </div>
       </div>
     </div>
