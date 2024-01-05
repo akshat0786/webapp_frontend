@@ -1,5 +1,4 @@
 import { Routes, RouterModule } from '@angular/router';
-
 import { CategoryListComponent } from './category-list.component';
 import { NgModule } from '@angular/core';
 

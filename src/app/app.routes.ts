@@ -11,15 +11,10 @@ export const routes: Routes = [
     loadChildren: () => import('./home/home.module').then((m) => m.HomeModule),
   },
   {
-    path: 'category-list',
+    path: 'product-list',
     loadChildren: () =>
-      import('./category-list/category-list.module').then(
-        (m) => m.CategoryListModule
+      import('./components/product-list/product-list.module').then(
+        (m) => m.ProductListModule
       ),
-  },
-  {
-    path: 'practice',
-    loadChildren: () =>
-      import('./practice/practice.module').then((m) => m.PracticeModule),
   },
 ];

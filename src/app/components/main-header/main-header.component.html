@@ -38,24 +38,31 @@
   <div class="modal-dialog modal-fullscreen modal-fullscreen-xl">
     <div class="modal-content">
       <div class="modal-body login-container">
-        <div class="card" style="width: auto">
-          <div>
+        <div class="card" style="width: auto; height: auto">
+          <div class="text-center p-2">
             <img src="../../../assets/imgs/Login Icon.png" alt="" />
           </div>
           <div class="card-body">
-            <h5 class="card-title">Login</h5>
+            <div class="text-center">
+              <h5 class="card-title fs-1">Login</h5>
+              <hr />
+            </div>
             <form>
-              <div class="form-group">
-                <label for="mobileNumber">Mobile Number</label>
+              <div class="form-group pb-3">
+                <label for="mobileNumber">Mobile Number</label> <br />
                 <input
                   type="tel"
                   class="form-control"
                   id="phone"
-                  placeholder="Enter your mobile number"
+                  placeholder="Enter mobile number"
                   required
                 />
+                <br />
+                <div class="text-end">
+                  <a href="#">Change Mobile Number</a>
+                </div>
               </div>
-              <div class="form-group">
+              <div class="form-group pb-3">
                 <label for="otp">OTP</label>
                 <input
                   type="text"
@@ -64,6 +71,9 @@
                   placeholder="Enter the OTP"
                   required
                 />
+                <div class="text-end">
+                  <a href="#">Resend OTP</a>
+                </div>
               </div>
               <div class="text-center">
                 <button type="submit" class="btn btn-primary">Login</button>

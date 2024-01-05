@@ -23,3 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
     console.error('Element with id "phone" not found.');
   }
 });
+
+// ***********Script to open modal by default*********
+// $(window).load(function () {
+//   $('#loginModal').modal('show');
+// });
