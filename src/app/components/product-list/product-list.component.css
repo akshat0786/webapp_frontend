@@ -15,7 +15,7 @@
   background-color: rgb(240, 240, 240);
   height: min-content;
   /* padding: 15px; */
-  border-radius: 11px;
+  /* border-radius-top: 11px; */
 
   .enquiry-btn {
     background-color: var(--main-font-color);
@@ -26,6 +26,30 @@
 .premium-lbl {
   background-color: white;
   height: 3rem;
-  margin: 6px 0px;
-  border-radius: 10px;
+  margin: 2px -12px;
+  margin-bottom: 20px;
+  border-radius: 1px;
+  padding: 5px;
+}
+
+.product-container-img {
+  color: red;
+  font-size: x-large;
+}
+
+.vertical-line {
+  width: 1px;
+  height: auto;
+  background-color: rgb(185, 185, 185);
+}
+
+.img-section {
+  background-color: #f7f8f9;
+
+
+  img {
+    height: 16rem;
+    width: 100%;
+    margin-bottom: 35px;
+  }
 }
