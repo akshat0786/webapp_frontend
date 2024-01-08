@@ -1,0 +1,31 @@
+.container-fluid {
+  margin: 80px 0px;
+}
+
+.list-group a {
+  background-color: #f7f8f9;
+  /* border: 0.1px solid rgb(107, 107, 107); */
+}
+
+.list-group a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.product-container {
+  background-color: rgb(240, 240, 240);
+  height: min-content;
+  /* padding: 15px; */
+  border-radius: 11px;
+
+  .enquiry-btn {
+    background-color: var(--main-font-color);
+    border: none;
+  }
+}
+
+.premium-lbl {
+  background-color: white;
+  height: 3rem;
+  margin: 6px 0px;
+  border-radius: 10px;
+}
