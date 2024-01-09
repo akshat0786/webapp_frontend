@@ -17,4 +17,11 @@ export const routes: Routes = [
         (m) => m.ProductListModule
       ),
   },
+  {
+    path: 'product-detail',
+    loadChildren: () => 
+        import('./components/product-detail/product-detail.module').then(
+          (m) => m.ProductDetailModule
+        )
+  }
 ];

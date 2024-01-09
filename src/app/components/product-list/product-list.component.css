@@ -1,5 +1,6 @@
 .container-fluid {
   margin: 80px 0px;
+  margin-bottom: 180px;
 }
 
 .list-group a {
@@ -18,8 +19,14 @@
   /* border-radius-top: 11px; */
 
   .enquiry-btn {
-    background-color: var(--main-font-color);
+    background-color: #b51718;
+    ;
     border: none;
+  }
+
+  .enquiry-btn:hover {
+    background-color: black;
+
   }
 }
 
@@ -40,7 +47,7 @@
 .vertical-line {
   width: 1px;
   height: auto;
-  background-color: rgb(185, 185, 185);
+  background-color: #b9b9b9;
 }
 
 .img-section {
@@ -50,6 +57,18 @@
   img {
     height: 16rem;
     width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
+  }
+}
+
+.related-category {
+  margin: 0px 20px;
+  margin-bottom: 10px
+}
+
+
+@media screen and (max-width: 480px) {
+  .related-category {
+    display: none;
   }
 }
