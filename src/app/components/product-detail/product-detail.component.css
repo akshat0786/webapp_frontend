@@ -72,3 +72,30 @@
     max-width: 63%;
     padding: 0;
 }
+
+.icon {
+    display: table;
+}
+
+.icon a {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 3rem;
+    color: #b51718;
+}
+
+.icon img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .related-picture {
+        display: none;
+    }
+
+    .product-img {
+        max-height: 45vh;
+    }
+}
