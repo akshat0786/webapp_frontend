@@ -98,4 +98,8 @@
     .product-img {
         max-height: 45vh;
     }
+
+    .product-img a {
+        max-width: fit-content;
+    }
 }

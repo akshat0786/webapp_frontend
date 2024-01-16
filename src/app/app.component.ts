@@ -20,5 +20,4 @@ import { MainHeaderComponent } from './components/main-header/main-header.compon
 })
 export class AppComponent {
   title = 'TradeHind';
-  constructor(public router: Router) {}
 }
