@@ -90,6 +90,14 @@
     width: 100%;
 }
 
+.similar-img {
+    opacity: 75%;
+}
+
+.similar-img:hover {
+    opacity: 100%;
+}
+
 @media screen and (max-width: 480px) {
     .related-picture {
         display: none;

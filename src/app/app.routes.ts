@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { PracticeComponent } from './components/practice/practice.component';
 
 export const routes: Routes = [
   {
@@ -23,13 +22,6 @@ export const routes: Routes = [
     loadChildren: () =>
       import('./components/product-detail/product-detail.module').then(
         (m) => m.ProductDetailModule
-      ),
-  },
-  {
-    path: 'practice',
-    loadChildren: () =>
-      import('./components/practice/practice.module').then(
-        (m) => m.PracticeModule
       ),
   },
 ];

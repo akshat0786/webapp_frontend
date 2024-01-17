@@ -5,8 +5,15 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './product-detail.component.html',
-  styleUrl: './product-detail.component.css'
+  styleUrl: './product-detail.component.css',
 })
 export class ProductDetailComponent {
-
+  myFunction(smallImg: any): void {
+    const mainImg: HTMLImageElement | null = document.getElementById(
+      'main-img'
+    ) as HTMLImageElement;
+    if (mainImg) {
+      mainImg.src = (smallImg as HTMLImageElement).src;
+    }
+  }
 }
